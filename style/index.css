@@ -24,6 +24,7 @@ body {
 
 .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover {
     color: #1ebba3;
+    font-size: 1.2rem;
 }
 
 .heading-content {
@@ -40,6 +41,12 @@ body {
     color: white;
 }
 
+.heading-content h5:hover{
+    font-size: 3.5em;
+    font-weight: 290;
+    color: rgb(104, 221, 91);
+}
+
 .heading-content h1 {
     font-size: 6em;
     font-weight: 500;
@@ -50,6 +57,12 @@ body {
     text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+.heading-content h1:hover{
+    font-size: 7em;
+    font-weight: 550;
+    color: rgb(104, 221, 91);
+}
+
 .heading-content p {
     font-size: 2em;
     font-weight: 300;
@@ -57,9 +70,19 @@ body {
     font-family: monospace;
 }
 
+.heading-content p:hover{
+    font-size: 1.5em;
+    font-weight: 290;
+    color: rgb(104, 221, 91);
+}
+
 #about .display-4 {
     font-weight: bold;
     font-family: 'Quattrocento Sans', sans-serif;
+}
+
+#about .display-4:hover{
+    font-size: 3.6em;
 }
 
 #about .btn {
@@ -69,7 +92,15 @@ body {
     border-radius: 5px;
     margin-top: 10px;
 }
-
+#about h2{
+    font-size: 2rem;
+    font-family: verdana;
+    font-weight: bold;
+}
+#about #para_text{
+    font-size: 1.5rem;
+    font-family: monospace;
+}
 #about .btn a {
     color: #fff;
     text-decoration: none;
@@ -86,6 +117,10 @@ body {
 #projects .display-4 {
     font-weight: bold;
     font-family: 'Quattrocento Sans', sans-serif;
+}
+
+#projects .display-4:hover{
+    font-size: 3.6em;
 }
 
 #projects .btn:hover {
