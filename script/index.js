@@ -40,3 +40,8 @@ function PlaySoundSamarjit() {
     var sound = document.getElementById("samarjit_audio");
     sound.play();
 }
+
+function PlaySoundStop() {
+    var sound = document.getElementById("stop_audio");
+    sound.play();
+}

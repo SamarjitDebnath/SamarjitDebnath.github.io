@@ -84,6 +84,7 @@ body {
 
 #about .display-4:hover{
     font-size: 3.6em;
+    cursor: wait;
 }
 
 #about .btn {
@@ -122,6 +123,19 @@ body {
     border: 2px solid #1ebba3;
     cursor: pointer;
 }
+#experience .display-4{
+    font-weight: bold;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+#experience .display-4:hover{
+    font-size: 3.6em;
+    cursor: wait;
+}
+
+#experience img:hover{
+    cursor: pointer; 
+}
 
 #projects .display-4 {
     font-weight: bold;
@@ -130,6 +144,7 @@ body {
 
 #projects .display-4:hover{
     font-size: 3.6em;
+    cursor: wait;
 }
 
 #projects .card-title {
@@ -146,6 +161,20 @@ body {
     border: 2.3px solid #1ebba3;
     font-size: 1.1rem;
     cursor: pointer;
+}
+
+#skills .display-4{
+    font-weight: bold;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+#skills .display-4:hover{
+    font-size: 3.6em;
+    cursor: wait;
+}
+
+#skills img:hover{
+    cursor: pointer; 
 }
 
 .card-body h5 {
