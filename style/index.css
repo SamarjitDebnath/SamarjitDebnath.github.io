@@ -61,6 +61,7 @@ body {
     font-size: 7em;
     font-weight: 550;
     color: rgb(104, 221, 91);
+    cursor: pointer;
 }
 
 .heading-content p {
@@ -97,6 +98,14 @@ body {
     font-family: verdana;
     font-weight: bold;
 }
+
+#about img:hover{
+    cursor: pointer;
+}
+#about h2:hover{
+    font-size: 2.2rem;
+    cursor: help;
+}
 #about #para_text{
     font-size: 1.5rem;
     font-family: monospace;
@@ -123,8 +132,19 @@ body {
     font-size: 3.6em;
 }
 
-#projects .btn:hover {
-    border: 2px solid #1ebba3;
+#projects .card-title {
+    color: #000;
+}
+
+#projects .card-title:hover {
+    color: #24ad8b;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+#projects .card:hover {
+    border: 2.3px solid #1ebba3;
+    font-size: 1.1rem;
     cursor: pointer;
 }
 
@@ -194,6 +214,10 @@ body {
     color: red;
 }
 
+.text-center #mail:hover{
+    color:rgb(104, 221, 91);
+    font-size: 1.07rem;
+}
 /*-----------Media Query------*/
 
 @media screen and (max-width: 768px) {
